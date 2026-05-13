@@ -14,8 +14,8 @@ var lakeGeom = almanor.geometry();
 /*------------------------------------------------------
   2. ANALYSIS SETTINGS
 ------------------------------------------------------*/
-var startDate = ee.Date('2021-03-01');
-var months = ee.List.sequence(0, 15); // 16 months total
+var startDate = ee.Date('2021-01-01');
+var months = ee.List.sequence(0, 24); // 16 months total
 
 
 /*------------------------------------------------------
